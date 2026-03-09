@@ -5,201 +5,597 @@
   img_name: magic_mote_frost
   rarity: 53
   base_value: 451
+  tags:
+    - mote
+    - ice
 
 - water_mote:
   name: Water Mote
   img_name: magic_mote_water
   rarity: 62
   base_value: 136
+  tags:
+    - mote
+    - water
 
 - lava_mote:
   name: Lava Mote
   img_name: magic_mote_lava
   rarity: 74
   base_value: 566
+  tags:
+    - mote
+    - fire
 
 - bubble_mote:
   name: Bubble Mote
   img_name: magic_mote_bubble
   rarity: 58
   base_value: 171
+  tags:
+    - mote
+    - water
 
 - ice_mote:
   name: Ice Mote
   img_name: magic_mote_ice
   rarity: 80
   base_value: 1019
+  tags:
+    - mote
+    - ice
 
 - mud_mote:
   name: Mud Mote
   img_name: newmote1
   rarity: 64
   base_value: 492
+  tags:
+    - mote
+    - earth
 
 - ash_mote:
   name: Ash Mote
   img_name: newmote2
   rarity: 71
   base_value: 222
+  tags: 
+    - mote
+    - fire
 
 - snow_mote:
   name: Snow Mote
   img_name: newmote3
   rarity: 75
   base_value: 283
+  tags: 
+    - mote
+    - ice
 
 - fire_mote:
   name: Fire Mote
   img_name: newmote8
   rarity: 57
   base_value: 83
+  tags:
+    - mote
+    - fire
 
 - salt_mote:
   name: Salt Mote
   img_name: newmote9
   rarity: 52
   base_value: 192
+  tags:
+    - mote
+    - earth
 
 - metallic_mote:
   name: Metallic Mote
   img_name: mote_metal
   rarity: 60
   base_value: 78
+  tags:
+    - mote
+    - metal
 
 - dung_mote:
   name: Dung Mote
   img_name: mote_dung
   rarity: 59
   base_value: 871
+  tags:
+    - mote
+    - gross
 
 - electrical_mote:
   name: Electrical Mote
   img_name: mote_electric
   rarity: 58
   base_value: 602
+  tags:
+    - mote
+    - lightning
 
 - air_mote:
   name: Air Mote
   img_name: mote_air
   rarity: 76
   base_value: 939
+  tags:
+    - mote
+    - wind
 
 - neopian_mote:
   name: Neopian Mote
   img_name: mote_neopian
   rarity: 80
   base_value: 767
+  tags:
+    - mote
+    - earth
+    - space
 
 - robot_mote:
   name: Robot Mote
   img_name: mote_robot
   rarity: 72
   base_value: 346
+  tags:
+    - mote
+    - metal
 
 - plushie_mote:
   name: Plushie Mote
   img_name: mote_plushie
   rarity: 88
   base_value: 1155
+  tags:
+    - mote
+    - plushie
 
 - dirt_mote:
   name: Dirt Mote
   img_name: mote_dirt
   rarity: 74
   base_value: 378
+  tags:
+    - mote
+    - earth
 
 - gold_mote:
   name: Gold Mote
   img_name: mote_gold
   rarity: 68
   base_value: 404
+  tags:
+    - mote
+    - metal
 
 - hair_mote:
   name: Hair Mote
   img_name: mote_hair
   rarity: 79
   base_value: 813
+  tags:
+    - mote
+    - gross
 
 - wood_mote:
   name: Wood Mote
   img_name: mote_wood
   rarity: 75
   base_value: 274
+  tags:
+    - mote
+    - earth
 
 - dee_mote:
   name: Dee Mote
   img_name: motes_dee
   rarity: 77
   base_value: 484
+  tags:
+    - mote
 
 - ee_mote:
   name: Ee Mote
   img_name: motes_ee
   rarity: 76
   base_value: 503
+  tags:
+    - mote
 
 - ree_mote:
   name: Ree Mote
   img_name: motes_ree
   rarity: 74
   base_value: 496
+  tags:
+    - mote
 
 - weewoo_mote:
   name: Weewoo Mote
   img_name: motes_weewoo
   rarity: 72
   base_value: 380
+  tags:
+    - mote
+    - weewoo
 
 - vicious_mote:
   name: Vicious Mote
   img_name: mote_vicious
   rarity: 88
   base_value: 1257
+  tags:
+    - mote
+    - scary
 
 - zen_mote:
   name: Zen Mote
   img_name: mote_zen
   rarity: 64
   base_value: 434
+  tags:
+    - mote
+    - magic
 
 - jelly_mote:
   name: Jelly Mote
   img_name: mote_jelly
   rarity: 66
   base_value: 469
+  tags:
+    - mote
+    - food
 
 - silver_mote:
   name: Silver Mote
   img_name: mote_silver
   rarity: 67
   base_value: 307
+  tags:
+    - mote
+    - metal
 
 - bronze_mote:
   name: Bronze Mote
   img_name: mote_bronze
   rarity: 66
   base_value: 396
+  tags:
+    - mote
+    - metal
 
 - day_mote:
   name: Day Mote
   img_name: mote_day
   rarity: 72
   base_value: 670
+  tags:
+    - mote
+    - space
+    - magic
 
 - night_mote:
   name: Night Mote
   img_name: mote_night
   rarity: 69
   base_value: 972
+  tags:
+    - mote
+    - space
+    - magic
 
 - chainmail_mote:
   name: Chainmail Mote
   img_name: mote_chainmail
   rarity: 88
   base_value: 10000
+  tags:
+    - mote
+    - armor
 
 - mirror_mote:
   name: Mirror Mote
   img_name: mote_mirror
   rarity: 100
   base_value: 20000
+  tags:
+    - mote
+    - fancy
+    - magic
+
+############### FOOD ###############
+
+- green_apple:
+  name: Green Apple
+  img_name: food_apple
+  rarity: 20
+  base_value: 293
+  tags:
+    - food
+
+- grapes:
+  name: Grapes
+  img_name: grapes
+  rarity: 18
+  base_value: 52
+  tags:
+    - food
+
+- bread:
+  name: Bread
+  img_name: bread
+  rarity: 10
+  base_value: 149
+  tags:
+    - food
+
+- peach:
+  name: Peach
+  img_name: peach
+  rarity: 10
+  base_value: 66
+  tags:
+    - food
+
+- nachos:
+  name: Nachos
+  img_name: nachos
+  rarity: 25
+  base_value: 119
+  tags:
+    - food
+
+- chicken:
+  name: Chicken
+  img_name: chicken
+  rarity: 23
+  base_value: 92
+  tags:
+    - food
+
+- sweet:
+  name: Sweet
+  img_name: sweet
+  rarity: 20
+  base_value: 97
+  tags:
+    - food
+
+- banana:
+  name: Banana
+  img_name: food_banana
+  rarity: 15
+  base_value: 149
+  tags:
+    - food
+
+- eyeball:
+  name: Eyeball
+  img_name: eyeball
+  rarity: 35
+  base_value: 85
+  tags:
+    - food
+    - scary
+
+- organic_carrot:
+  name: Organic Carrot
+  img_name: carrot
+  rarity: 17
+  base_value: 140
+  tags:
+    - food
+
+- burrito_in_the_wall:
+  name: Burrito in the Wall
+  img_name: foo_burrito_wall
+  rarity: 78
+  base_value: 2400
+  tags:
+    - food
+
+- tomato:
+  name: Tomato
+  img_name: tomato
+  rarity: 20
+  base_value: 456
+  tags:
+    - food
+
+- pizza:
+  name: Pizza
+  img_name: pizza
+  rarity: 40
+  base_value: 252
+  tags:
+    - food
+
+- sandwich:
+  name: Sandwich
+  img_name: sandwich
+  rarity: 35
+  base_value: 680
+  tags:
+    - food
+
+- cherries:
+  name: Cherries
+  img_name: cherries
+  rarity: 40
+  base_value: 164
+  tags:
+    - food
+
+- cherries:
+  name: Cherries
+  img_name: cherries
+  rarity: 40
+  base_value: 164
+  tags:
+    - food
+
+- joint_of_ham:
+  name: Joint of Ham
+  img_name: ham
+  rarity: 50
+  base_value: 443
+  tags:
+    - food
+
+- orange_juice:
+  name: Orange Juice
+  img_name: orangejuice
+  rarity: 35
+  base_value: 349
+  tags:
+    - food
+
+- neotruffle:
+  name: Neotruffle
+  img_name: ferrero
+  rarity: 99
+  base_value: 3080
+  tags:
+    - food
+
+- supersub:
+  name: Super Sub
+  img_name: supersub
+  rarity: 50
+  base_value: 651
+  tags:
+    - food
+
+- jar_of_eyeballs:
+  name: Jar of Eyeballs
+  img_name: magic_jarofeyes
+  rarity: 80
+  base_value: 210
+  tags:
+    - food
+    - magic
+    - scary
+
+- hot_soup:
+  name: Hot Soup
+  img_name: hotdrink
+  rarity: 30
+  base_value: 264
+  tags:
+    - food
+    - magic
+    - scary
+
+- wriggling_grub:
+  name: Wriggling Grub
+  img_name: grub
+  rarity: 45
+  base_value: 92
+  tags:
+    - food
+    - scary
+
+- can_of_neocola:
+  name: Can of Neocola
+  img_name: neocola
+  rarity: 15
+  base_value: 267
+  tags:
+    - food
+
+- caffeine_free_neocola:
+  name: Caffeine Free Neocola
+  img_name: neocola_caff
+  rarity: 25
+  base_value: 701
+  tags:
+    - food
+
+############### NEGGS ###############
+
+- negg:
+  name: Negg
+  img_name: negg
+  rarity: 45
+  base_value: 5887
+  tags:
+    - food
+    - negg
+
+- purple_negg:
+  name: Purple Negg
+  img_name: purple_negg
+  rarity: 65
+  base_value: 3319
+  tags:
+    - food
+    - negg
+
+- green_negg:
+  name: Green Negg
+  img_name: green_negg
+  rarity: 80
+  base_value: 3692
+  tags:
+    - food
+    - negg
+
+- orange_negg:
+  name: Orange Negg
+  img_name: orangenegg
+  rarity: 85
+  base_value: 1018
+  tags:
+    - food
+    - negg
+
+- rainbow_negg:
+  name: Orange Negg
+  img_name: rainbownegg
+  rarity: 95
+  base_value: 737
+  tags:
+    - food
+    - negg
+
+- pink_negg:
+  name: Pink Negg
+  img_name: pinknegg
+  rarity: 85
+  base_value: 759
+  tags:
+    - food
+    - negg
+
+############### POTIONS ###############
+
+- magic_potion:
+  name: Magic Potion
+  img_name: magic_magicpotion
+  rarity: 80
+  base_value: 10560
+  tags:
+    - potion
+    - magic
+
+- bottle_of_water:
+  name: Bottle of Water
+  img_name: water
+  rarity: 10
+  base_value: 2352
+  tags:
+    - potion
+    - food
+
+- two_bottles_of_water:
+  name: Two Bottles of Water
+  img_name: waterbottles
+  rarity: 50
+  base_value: 4704
+  tags:
+    - potion
+    - food
