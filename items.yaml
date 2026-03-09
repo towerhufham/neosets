@@ -1,0 +1,205 @@
+############### MOTES ###############
+
+- frost_mote:
+  name: Frost Mote
+  img_name: magic_mote_frost
+  rarity: 53
+  base_value: 451
+
+- water_mote:
+  name: Water Mote
+  img_name: magic_mote_water
+  rarity: 62
+  base_value: 136
+
+- lava_mote:
+  name: Lava Mote
+  img_name: magic_mote_lava
+  rarity: 74
+  base_value: 566
+
+- bubble_mote:
+  name: Bubble Mote
+  img_name: magic_mote_bubble
+  rarity: 58
+  base_value: 171
+
+- ice_mote:
+  name: Ice Mote
+  img_name: magic_mote_ice
+  rarity: 80
+  base_value: 1019
+
+- mud_mote:
+  name: Mud Mote
+  img_name: newmote1
+  rarity: 64
+  base_value: 492
+
+- ash_mote:
+  name: Ash Mote
+  img_name: newmote2
+  rarity: 71
+  base_value: 222
+
+- snow_mote:
+  name: Snow Mote
+  img_name: newmote3
+  rarity: 75
+  base_value: 283
+
+- fire_mote:
+  name: Fire Mote
+  img_name: newmote8
+  rarity: 57
+  base_value: 83
+
+- salt_mote:
+  name: Salt Mote
+  img_name: newmote9
+  rarity: 52
+  base_value: 192
+
+- metallic_mote:
+  name: Metallic Mote
+  img_name: mote_metal
+  rarity: 60
+  base_value: 78
+
+- dung_mote:
+  name: Dung Mote
+  img_name: mote_dung
+  rarity: 59
+  base_value: 871
+
+- electrical_mote:
+  name: Electrical Mote
+  img_name: mote_electric
+  rarity: 58
+  base_value: 602
+
+- air_mote:
+  name: Air Mote
+  img_name: mote_air
+  rarity: 76
+  base_value: 939
+
+- neopian_mote:
+  name: Neopian Mote
+  img_name: mote_neopian
+  rarity: 80
+  base_value: 767
+
+- robot_mote:
+  name: Robot Mote
+  img_name: mote_robot
+  rarity: 72
+  base_value: 346
+
+- plushie_mote:
+  name: Plushie Mote
+  img_name: mote_plushie
+  rarity: 88
+  base_value: 1155
+
+- dirt_mote:
+  name: Dirt Mote
+  img_name: mote_dirt
+  rarity: 74
+  base_value: 378
+
+- gold_mote:
+  name: Gold Mote
+  img_name: mote_gold
+  rarity: 68
+  base_value: 404
+
+- hair_mote:
+  name: Hair Mote
+  img_name: mote_hair
+  rarity: 79
+  base_value: 813
+
+- wood_mote:
+  name: Wood Mote
+  img_name: mote_wood
+  rarity: 75
+  base_value: 274
+
+- dee_mote:
+  name: Dee Mote
+  img_name: motes_dee
+  rarity: 77
+  base_value: 484
+
+- ee_mote:
+  name: Ee Mote
+  img_name: motes_ee
+  rarity: 76
+  base_value: 503
+
+- ree_mote:
+  name: Ree Mote
+  img_name: motes_ree
+  rarity: 74
+  base_value: 496
+
+- weewoo_mote:
+  name: Weewoo Mote
+  img_name: motes_weewoo
+  rarity: 72
+  base_value: 380
+
+- vicious_mote:
+  name: Vicious Mote
+  img_name: mote_vicious
+  rarity: 88
+  base_value: 1257
+
+- zen_mote:
+  name: Zen Mote
+  img_name: mote_zen
+  rarity: 64
+  base_value: 434
+
+- jelly_mote:
+  name: Jelly Mote
+  img_name: mote_jelly
+  rarity: 66
+  base_value: 469
+
+- silver_mote:
+  name: Silver Mote
+  img_name: mote_silver
+  rarity: 67
+  base_value: 307
+
+- bronze_mote:
+  name: Bronze Mote
+  img_name: mote_bronze
+  rarity: 66
+  base_value: 396
+
+- day_mote:
+  name: Day Mote
+  img_name: mote_day
+  rarity: 72
+  base_value: 670
+
+- night_mote:
+  name: Night Mote
+  img_name: mote_night
+  rarity: 69
+  base_value: 972
+
+- chainmail_mote:
+  name: Chainmail Mote
+  img_name: mote_chainmail
+  rarity: 88
+  base_value: 10000
+
+- mirror_mote:
+  name: Mirror Mote
+  img_name: mote_mirror
+  rarity: 100
+  base_value: 20000
