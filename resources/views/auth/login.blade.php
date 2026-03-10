@@ -6,8 +6,8 @@
     @csrf
     <div class="w-full justify-between flex">
       <div class="flex flex-col items-center justify-center mb-4">
-        <label for="username">Username:</label>
-        <input class="bg-white p-1 rounded-md border border-black" name="name" type="text"/>
+        <label for="email">Email:</label>
+        <input class="bg-white p-1 rounded-md border border-black" name="email" type="email"/>
       </div>
       <div class="flex flex-col items-center justify-center">
         <label for="password">Password:</label>
