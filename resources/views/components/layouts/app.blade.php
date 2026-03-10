@@ -8,12 +8,14 @@
 </head>
 <body>
   @auth
-    <div class="bg-amber-300 text-center p-4 mb-4">
-      You are logged in!
-    </div>
+    <!-- this forms is a good place to try htmx / alpine-ajax -->
+    <form class="bg-amber-300 text-center p-4" action="logout" method="POST">
+      @csrf
+      <button type="submit">You are logged in!</button>
+    </form>
   @else
-    <div class="bg-emerald-300 text-center p-4 mb-4">
-      You should log in...
+    <div class="bg-emerald-300 text-center p-4">
+      <a href="/login">You should log in...</a>
     </div>
   @endauth
   <main>
