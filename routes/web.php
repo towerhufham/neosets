@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.welcome');
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('pages.home');
 })->middleware(('auth'));
