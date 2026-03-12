@@ -1,6 +1,6 @@
 ############### MOTES ###############
 
-- frost_mote:
+- slug: frost_mote
   name: Frost Mote
   img_name: magic_mote_frost
   rarity: 53
@@ -9,7 +9,7 @@
     - mote
     - ice
 
-- water_mote:
+- slug: water_mote
   name: Water Mote
   img_name: magic_mote_water
   rarity: 62
@@ -18,7 +18,7 @@
     - mote
     - water
 
-- lava_mote:
+- slug: lava_mote
   name: Lava Mote
   img_name: magic_mote_lava
   rarity: 74
@@ -27,7 +27,7 @@
     - mote
     - fire
 
-- bubble_mote:
+- slug: bubble_mote
   name: Bubble Mote
   img_name: magic_mote_bubble
   rarity: 58
@@ -36,7 +36,7 @@
     - mote
     - water
 
-- ice_mote:
+- slug: ice_mote
   name: Ice Mote
   img_name: magic_mote_ice
   rarity: 80
@@ -45,7 +45,7 @@
     - mote
     - ice
 
-- mud_mote:
+- slug: mud_mote
   name: Mud Mote
   img_name: newmote1
   rarity: 64
@@ -54,25 +54,25 @@
     - mote
     - earth
 
-- ash_mote:
+- slug: ash_mote
   name: Ash Mote
   img_name: newmote2
   rarity: 71
   base_value: 222
-  tags: 
+  tags:
     - mote
     - fire
 
-- snow_mote:
+- slug: snow_mote
   name: Snow Mote
   img_name: newmote3
   rarity: 75
   base_value: 283
-  tags: 
+  tags:
     - mote
     - ice
 
-- fire_mote:
+- slug: fire_mote
   name: Fire Mote
   img_name: newmote8
   rarity: 57
@@ -81,7 +81,7 @@
     - mote
     - fire
 
-- salt_mote:
+- slug: salt_mote
   name: Salt Mote
   img_name: newmote9
   rarity: 52
@@ -90,7 +90,7 @@
     - mote
     - earth
 
-- metallic_mote:
+- slug: metallic_mote
   name: Metallic Mote
   img_name: mote_metal
   rarity: 60
@@ -99,7 +99,7 @@
     - mote
     - metal
 
-- dung_mote:
+- slug: dung_mote
   name: Dung Mote
   img_name: mote_dung
   rarity: 59
@@ -108,7 +108,7 @@
     - mote
     - gross
 
-- electrical_mote:
+- slug: electrical_mote
   name: Electrical Mote
   img_name: mote_electric
   rarity: 58
@@ -117,7 +117,7 @@
     - mote
     - lightning
 
-- air_mote:
+- slug: air_mote
   name: Air Mote
   img_name: mote_air
   rarity: 76
@@ -126,7 +126,7 @@
     - mote
     - wind
 
-- neopian_mote:
+- slug: neopian_mote
   name: Neopian Mote
   img_name: mote_neopian
   rarity: 80
@@ -136,7 +136,7 @@
     - earth
     - space
 
-- robot_mote:
+- slug: robot_mote
   name: Robot Mote
   img_name: mote_robot
   rarity: 72
@@ -145,7 +145,7 @@
     - mote
     - metal
 
-- plushie_mote:
+- slug: plushie_mote
   name: Plushie Mote
   img_name: mote_plushie
   rarity: 88
@@ -154,7 +154,7 @@
     - mote
     - plushie
 
-- dirt_mote:
+- slug: dirt_mote
   name: Dirt Mote
   img_name: mote_dirt
   rarity: 74
@@ -163,7 +163,7 @@
     - mote
     - earth
 
-- gold_mote:
+- slug: gold_mote
   name: Gold Mote
   img_name: mote_gold
   rarity: 68
@@ -172,7 +172,7 @@
     - mote
     - metal
 
-- hair_mote:
+- slug: hair_mote
   name: Hair Mote
   img_name: mote_hair
   rarity: 79
@@ -181,7 +181,7 @@
     - mote
     - gross
 
-- wood_mote:
+- slug: wood_mote
   name: Wood Mote
   img_name: mote_wood
   rarity: 75
@@ -190,7 +190,7 @@
     - mote
     - earth
 
-- dee_mote:
+- slug: dee_mote
   name: Dee Mote
   img_name: motes_dee
   rarity: 77
@@ -198,7 +198,7 @@
   tags:
     - mote
 
-- ee_mote:
+- slug: ee_mote
   name: Ee Mote
   img_name: motes_ee
   rarity: 76
@@ -206,7 +206,7 @@
   tags:
     - mote
 
-- ree_mote:
+- slug: ree_mote
   name: Ree Mote
   img_name: motes_ree
   rarity: 74
@@ -214,7 +214,7 @@
   tags:
     - mote
 
-- weewoo_mote:
+- slug: weewoo_mote
   name: Weewoo Mote
   img_name: motes_weewoo
   rarity: 72
@@ -223,7 +223,7 @@
     - mote
     - weewoo
 
-- vicious_mote:
+- slug: vicious_mote
   name: Vicious Mote
   img_name: mote_vicious
   rarity: 88
@@ -232,7 +232,7 @@
     - mote
     - scary
 
-- zen_mote:
+- slug: zen_mote
   name: Zen Mote
   img_name: mote_zen
   rarity: 64
@@ -241,7 +241,7 @@
     - mote
     - magic
 
-- jelly_mote:
+- slug: jelly_mote
   name: Jelly Mote
   img_name: mote_jelly
   rarity: 66
@@ -250,7 +250,7 @@
     - mote
     - food
 
-- silver_mote:
+- slug: silver_mote
   name: Silver Mote
   img_name: mote_silver
   rarity: 67
@@ -259,7 +259,7 @@
     - mote
     - metal
 
-- bronze_mote:
+- slug: bronze_mote
   name: Bronze Mote
   img_name: mote_bronze
   rarity: 66
@@ -268,7 +268,7 @@
     - mote
     - metal
 
-- day_mote:
+- slug: day_mote
   name: Day Mote
   img_name: mote_day
   rarity: 72
@@ -278,7 +278,7 @@
     - space
     - magic
 
-- night_mote:
+- slug: night_mote
   name: Night Mote
   img_name: mote_night
   rarity: 69
@@ -288,7 +288,7 @@
     - space
     - magic
 
-- chainmail_mote:
+- slug: chainmail_mote
   name: Chainmail Mote
   img_name: mote_chainmail
   rarity: 88
@@ -297,7 +297,7 @@
     - mote
     - armor
 
-- mirror_mote:
+- slug: mirror_mote
   name: Mirror Mote
   img_name: mote_mirror
   rarity: 100
@@ -309,7 +309,7 @@
 
 ############### FOOD ###############
 
-- green_apple:
+- slug: green_apple
   name: Green Apple
   img_name: food_apple
   rarity: 20
@@ -317,7 +317,7 @@
   tags:
     - food
 
-- grapes:
+- slug: grapes
   name: Grapes
   img_name: grapes
   rarity: 18
@@ -325,7 +325,7 @@
   tags:
     - food
 
-- bread:
+- slug: bread
   name: Bread
   img_name: bread
   rarity: 10
@@ -333,7 +333,7 @@
   tags:
     - food
 
-- peach:
+- slug: peach
   name: Peach
   img_name: peach
   rarity: 10
@@ -341,7 +341,7 @@
   tags:
     - food
 
-- nachos:
+- slug: nachos
   name: Nachos
   img_name: nachos
   rarity: 25
@@ -349,7 +349,7 @@
   tags:
     - food
 
-- chicken:
+- slug: chicken
   name: Chicken
   img_name: chicken
   rarity: 23
@@ -357,7 +357,7 @@
   tags:
     - food
 
-- sweet:
+- slug: sweet
   name: Sweet
   img_name: sweet
   rarity: 20
@@ -365,7 +365,7 @@
   tags:
     - food
 
-- banana:
+- slug: banana
   name: Banana
   img_name: food_banana
   rarity: 15
@@ -373,7 +373,7 @@
   tags:
     - food
 
-- eyeball:
+- slug: eyeball
   name: Eyeball
   img_name: eyeball
   rarity: 35
@@ -382,7 +382,7 @@
     - food
     - scary
 
-- organic_carrot:
+- slug: organic_carrot
   name: Organic Carrot
   img_name: carrot
   rarity: 17
@@ -390,7 +390,7 @@
   tags:
     - food
 
-- burrito_in_the_wall:
+- slug: burrito_in_the_wall
   name: Burrito in the Wall
   img_name: foo_burrito_wall
   rarity: 78
@@ -398,7 +398,7 @@
   tags:
     - food
 
-- tomato:
+- slug: tomato
   name: Tomato
   img_name: tomato
   rarity: 20
@@ -406,7 +406,7 @@
   tags:
     - food
 
-- pizza:
+- slug: pizza
   name: Pizza
   img_name: pizza
   rarity: 40
@@ -414,7 +414,7 @@
   tags:
     - food
 
-- sandwich:
+- slug: sandwich
   name: Sandwich
   img_name: sandwich
   rarity: 35
@@ -422,7 +422,7 @@
   tags:
     - food
 
-- cherries:
+- slug: cherries
   name: Cherries
   img_name: cherries
   rarity: 40
@@ -430,15 +430,7 @@
   tags:
     - food
 
-- cherries:
-  name: Cherries
-  img_name: cherries
-  rarity: 40
-  base_value: 164
-  tags:
-    - food
-
-- joint_of_ham:
+- slug: joint_of_ham
   name: Joint of Ham
   img_name: ham
   rarity: 50
@@ -446,7 +438,7 @@
   tags:
     - food
 
-- orange_juice:
+- slug: orange_juice
   name: Orange Juice
   img_name: orangejuice
   rarity: 35
@@ -454,7 +446,7 @@
   tags:
     - food
 
-- neotruffle:
+- slug: neotruffle
   name: Neotruffle
   img_name: ferrero
   rarity: 99
@@ -462,7 +454,7 @@
   tags:
     - food
 
-- supersub:
+- slug: supersub
   name: Super Sub
   img_name: supersub
   rarity: 50
@@ -470,7 +462,7 @@
   tags:
     - food
 
-- jar_of_eyeballs:
+- slug: jar_of_eyeballs
   name: Jar of Eyeballs
   img_name: magic_jarofeyes
   rarity: 80
@@ -480,7 +472,7 @@
     - magic
     - scary
 
-- hot_soup:
+- slug: hot_soup
   name: Hot Soup
   img_name: hotdrink
   rarity: 30
@@ -490,7 +482,7 @@
     - magic
     - scary
 
-- wriggling_grub:
+- slug: wriggling_grub
   name: Wriggling Grub
   img_name: grub
   rarity: 45
@@ -499,7 +491,7 @@
     - food
     - scary
 
-- can_of_neocola:
+- slug: can_of_neocola
   name: Can of Neocola
   img_name: neocola
   rarity: 15
@@ -507,7 +499,7 @@
   tags:
     - food
 
-- caffeine_free_neocola:
+- slug: caffeine_free_neocola
   name: Caffeine Free Neocola
   img_name: neocola_caff
   rarity: 25
@@ -517,7 +509,7 @@
 
 ############### NEGGS ###############
 
-- negg:
+- slug: negg
   name: Negg
   img_name: negg
   rarity: 45
@@ -526,7 +518,7 @@
     - food
     - negg
 
-- purple_negg:
+- slug: purple_negg
   name: Purple Negg
   img_name: purple_negg
   rarity: 65
@@ -535,7 +527,7 @@
     - food
     - negg
 
-- green_negg:
+- slug: green_negg
   name: Green Negg
   img_name: green_negg
   rarity: 80
@@ -544,7 +536,7 @@
     - food
     - negg
 
-- orange_negg:
+- slug: orange_negg
   name: Orange Negg
   img_name: orangenegg
   rarity: 85
@@ -553,8 +545,8 @@
     - food
     - negg
 
-- rainbow_negg:
-  name: Orange Negg
+- slug: rainbow_negg
+  name: Rainbow Negg
   img_name: rainbownegg
   rarity: 95
   base_value: 737
@@ -562,7 +554,7 @@
     - food
     - negg
 
-- pink_negg:
+- slug: pink_negg
   name: Pink Negg
   img_name: pinknegg
   rarity: 85
@@ -573,7 +565,7 @@
 
 ############### POTIONS ###############
 
-- magic_potion:
+- slug: magic_potion
   name: Magic Potion
   img_name: magic_magicpotion
   rarity: 80
@@ -582,7 +574,7 @@
     - potion
     - magic
 
-- bottle_of_water:
+- slug: bottle_of_water
   name: Bottle of Water
   img_name: water
   rarity: 10
@@ -591,7 +583,7 @@
     - potion
     - food
 
-- two_bottles_of_water:
+- slug: two_bottles_of_water
   name: Two Bottles of Water
   img_name: waterbottles
   rarity: 50
