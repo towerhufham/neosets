@@ -33,10 +33,11 @@ class ShopRestock extends Command
             $itemIndex = array_rand($allItems);
             $item = $allItems[$itemIndex];
             if (rand(1, 100) >= $item['rarity']) {
-                $stock = Offer::create([
+                $priceMultiplier = rand(1240, 1920) / 1000;
+                Offer::create([
                     'user_id' => null,
                     'item_id' => $item['id'],
-                    'price' => $item['base_value']
+                    'price' => floor($item['base_value'] * $priceMultiplier)
                 ]);
             }
         }
