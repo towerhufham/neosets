@@ -31,12 +31,14 @@ class ShopRestock extends Command
         $rolls = floor(count($allItems) * 1.6);
         for ($i = 0; $i <= $rolls; $i++) {
             $itemIndex = array_rand($allItems);
-            //todo: rarity
-            $stock = Offer::create([
-                'user_id' => null,
-                'item_id' => $allItems[$itemIndex]['id'],
-                'price' => $allItems[$itemIndex]['base_value']
-            ]);
+            $item = $allItems[$itemIndex];
+            if (rand(1, 100) >= $item['rarity']) {
+                $stock = Offer::create([
+                    'user_id' => null,
+                    'item_id' => $item['id'],
+                    'price' => $item['base_value']
+                ]);
+            }
         }
     }
 }
