@@ -11,11 +11,12 @@
   @auth
     <form class="bg-amber-300 text-center p-4" action="logout" method="POST">
       @csrf
-      <button type="submit">You are logged in!</button>
+      <button class="btn-main" type="submit">Log Out</button>
     </form>
   @else
-    <div class="bg-emerald-300 text-center p-4">
-      <a href="/login">You should log in...</a>
+    <div class="bg-amber-300 flex justify-center items-center gap-4 p-4">
+      <a class="btn-main" href="/login">Log In</a>
+      <a class="btn-main" href="/register">Register</a>
     </div>
   @endauth
   <main>

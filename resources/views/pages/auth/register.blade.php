@@ -22,7 +22,7 @@
         <input class="bg-white p-1 rounded-md border border-black" name="password_confirmation" type="password"/>
       </div>
     </div>
-    <button class="bg-amber-400 rounded-lg shadow-lg p-2 cursor-pointer" type="submit">Submit</button>
+    <button class="btn-main" type="submit">Submit</button>
   </form>
   <p class="text-red-500">{{ $errors }}</p>
 </x-layouts.app>
