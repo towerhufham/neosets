@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use App\Models\Offer;
+use App\Models\Purchase;
 
 class Item extends Model
 {
@@ -14,5 +15,9 @@ class Item extends Model
 
     public function offers(): HasMany {
         return $this->hasMany(Offer::class);
+    }
+
+    public function purchases(): HasMany {
+        return $this->hasMany(Purchase::class);
     }
 }
