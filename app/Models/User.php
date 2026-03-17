@@ -10,6 +10,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use App\Models\Offer;
 use App\Models\Purchase;
+use App\Models\Inventory;
 
 class User extends Authenticatable
 {
@@ -61,5 +62,9 @@ class User extends Authenticatable
 
     public function sales(): HasMany {
         return $this->hasMany(Purchase::class, 'seller_id');
+    }
+
+    public function inventories(): HasMany {
+        return $this->hasMany(Inventory::class);
     }
 }
