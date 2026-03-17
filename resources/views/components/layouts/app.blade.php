@@ -9,10 +9,15 @@
 </head>
 <body>
   @auth
-    <form class="bg-amber-300 text-center p-4" action="logout" method="POST">
+    <form class="bg-amber-300 flex justify-center items-center gap-4 p-4" action="logout" method="POST" x-data>
       @csrf
       <button class="btn-main" type="submit">Log Out</button>
       <p class="text-xl font-bold mt-2">You have {{number_format(Auth::user()->np)}} NP.</p>
+      <p>
+        Your cart has 
+        <span x-text="$store.cart.count.toLocaleString()"></span> items totalling 
+        <span x-text="$store.cart.total.toLocaleString()"></span> NP.
+      </p>
     </form>
   @else
     <div class="bg-amber-300 flex justify-center items-center gap-4 p-4">
