@@ -7,7 +7,7 @@
       @foreach ($offers as $offer)
         <div class="flex flex-col justify-center items-center">
           <img 
-          class="border border-black"
+          class="border border-blue-500"
           src="https://images.neopets.com/items/{{$offer->item->img_name}}.gif" 
           alt="{{$offer->item->name}}"/>
           <p class="font-bold font-serif text-center">{{$offer->item->name}}</p>
