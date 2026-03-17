@@ -6,7 +6,6 @@
   <title>Neosets {{ $title ? "— $title" : ''}}</title>
   @vite(['resources/css/app.css', 'resources/js/app.js'])
   @livewireStyles
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
   @auth
@@ -24,6 +23,6 @@
   <main>
     {{ $slot }}
   </main>
-  @livewireScripts
+  @livewireScriptConfig
 </body>
 </html>

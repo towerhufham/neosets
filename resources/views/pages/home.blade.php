@@ -5,7 +5,7 @@
     <h2 class="text-xl font-bold text-center">For Sale:</h2>
     <div class="grid grid-cols-6 gap-4">
       @foreach ($offers as $offer)
-        <livewire:item-for-sale :item="$offer->item" :price="$offer->price"/>
+        <livewire:offer :offer="$offer"/>
       @endforeach
     </div>
   </div>
