@@ -15,7 +15,11 @@ new class extends Component
 };
 ?>
 
-<div class="flex flex-col justify-center items-center">
+<div 
+class="flex flex-col justify-center items-center p-0.5" 
+x-data="{selected: false}"
+x-on:click="selected = !selected"
+:class="selected ? 'border-2 border-blue-400 bg-blue-100' : ''">
     <img 
     class="border border-blue-500"
     src="https://images.neopets.com/items/{{$item->img_name}}.gif" 
