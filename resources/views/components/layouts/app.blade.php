@@ -15,9 +15,10 @@
       <p class="text-xl font-bold mt-2">You have {{number_format(Auth::user()->np)}} NP.</p>
       <p>
         Your cart has 
-        <span x-text="$store.cart.count.toLocaleString()"></span> items totalling 
+        <span x-text="$store.cart.count.toLocaleString()"></span> items totaling 
         <span x-text="$store.cart.total.toLocaleString()"></span> NP.
       </p>
+      <livewire:purchase-button/>
     </form>
   @else
     <div class="bg-amber-300 flex justify-center items-center gap-4 p-4">
