@@ -17,10 +17,10 @@ new class extends Component
 ?>
 
 <div 
-class="flex flex-col justify-center items-center border-2 p-0.5 cursor-pointer"
+class="flex flex-col justify-center items-center border-2 border-white p-0.5 cursor-pointer"
 x-data="{offer: {{ Js::from($offer) }}, item: {{ Js::from($item) }} }"
 x-on:click="$store.cart.addOrRemove(offer)"
-:class="$store.cart.includes(offer) ? 'border-blue-400 bg-blue-100' : 'border-white bg-white hover:bg-blue-50'">
+:class="$store.cart.includes(offer) ? 'border-blue-400! bg-blue-100' : 'border-white bg-white hover:bg-blue-50'">
     <img 
     class="border border-blue-500"
     src="https://images.neopets.com/items/{{$item->img_name}}.gif" 
