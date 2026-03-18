@@ -11,6 +11,8 @@
   @auth
     <form class="bg-amber-300 flex justify-center items-center gap-4 p-4" action="logout" method="POST" x-data>
       @csrf
+      <a href="/home">Home</a>
+      <a href="/inventory">Inventory</a>
       <button class="btn-main" type="submit">Log Out</button>
       <p class="text-xl font-bold mt-2">You have {{number_format(Auth::user()->np)}} NP.</p>
       <p>

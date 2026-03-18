@@ -7,9 +7,10 @@ use App\Models\Offer;
 
 new class extends Component
 {
-    public function tryPurchase(array $offerIds): void {
+    public function tryPurchase(array $offerIds) {
         $service = new PurchaseService();
         $service->purchaseMany(Offer::findMany($offerIds), Auth::user());
+        return redirect('/inventory');
     }
 };
 ?>

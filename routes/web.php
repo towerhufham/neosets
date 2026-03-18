@@ -11,3 +11,5 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('pages.home', ['offers' => Offer::all()]);
 })->middleware(('auth'));
+
+Route::livewire('/inventory', 'pages::inventory')->middleware(('auth'));
